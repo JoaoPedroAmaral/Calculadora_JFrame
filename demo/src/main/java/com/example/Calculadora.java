@@ -3,20 +3,19 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
 public class Calculadora extends JFrame {
-   private JLabel areaDeTexto;
-   private StringBuilder currentInput = new StringBuilder();//ele é o valor que aparece no JLabel
+   public JLabel areaDeTexto;
+   public StringBuilder currentInput = new StringBuilder();//ele é o valor que aparece no JLabel
    private double numero1;
    private String operacao;
 
    public Calculadora(){
+    
         
+
         setTitle("Calculadora");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
@@ -33,6 +32,7 @@ public class Calculadora extends JFrame {
         //cor do texto
         areaDeTexto.setForeground(Color.white);
         areaDeTexto.setPreferredSize(new Dimension(areaDeTexto.getPreferredSize().height,150));
+
         //fonte
         try{
             //usamos o getClass para carregar fontes personalizadas, coisa q a variavel Font não faria normalmente
