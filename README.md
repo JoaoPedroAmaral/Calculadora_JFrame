@@ -1,6 +1,6 @@
 <h1 style="text-shadow:3px 2px #6e0aad;">Calculadora Java</h1>
 
-<img src="src\main\java\com\example\img\Captura de tela 2023-10-19 143400.png" style="border:5px solid #6e0aad; border-radius:10px;">
+<img src="demo/src\main\java\com\example\img\Captura de tela 2023-10-19 143400.png" style="border:5px solid #6e0aad; border-radius:10px;">
 
 <br>
 
